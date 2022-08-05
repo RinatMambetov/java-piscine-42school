@@ -1,0 +1,10 @@
+school21/spring/service/models/PreProcessorToUpperImpl.class
+school21/spring/service/models/RendererStandardImpl.class
+school21/spring/service/models/PreProcessorToLowerImpl.class
+school21/spring/service/application/Main.class
+school21/spring/service/models/PrinterWithDateTimeImpl.class
+school21/spring/service/models/RendererErrImpl.class
+school21/spring/service/models/PrinterWithPrefixImpl.class
+school21/spring/service/interfaces/PreProcessor.class
+school21/spring/service/interfaces/Printer.class
+school21/spring/service/interfaces/Renderer.class

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.school21.repositories.ProductsRepositoryJdbcImplTest" time="0.428" tests="5" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/rinat/mydev/IdeaProjects/JavaPiscine/day06/src/ex02/Tests/target/test-classes:/Users/rinat/mydev/IdeaProjects/JavaPiscine/day06/src/ex02/Tests/target/classes:/Users/rinat/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.jar:/Users/rinat/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.0.0-M5/maven-surefire-common-3.0.0-M5.jar:/Users/rinat/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M5/surefire-api-3.0.0-M5.jar:/Users/rinat/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M5/surefire-logger-api-3.0.0-M5.jar:/Users/rinat/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M5/surefire-extensions-api-3.0.0-M5.jar:/Users/rinat/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M5/surefire-booter-3.0.0-M5.jar:/Users/rinat/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M5/surefire-extensions-spi-3.0.0-M5.jar:/Users/rinat/.m2/repository/org/apache/maven/maven-toolchain/3.0-alpha-2/maven-toolchain-3.0-alpha-2.jar:/Users/rinat/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.jar:/Users/rinat/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar:/Users/rinat/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/Users/rinat/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/Users/rinat/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/Users/rinat/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/Users/rinat/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/Users/rinat/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/Users/rinat/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.jar:/Users/rinat/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/rinat/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/rinat/.m2/repository/org/codehaus/plexus/plexus-java/1.0.5/plexus-java-1.0.5.jar:/Users/rinat/.m2/repository/org/ow2/asm/asm/7.2/asm-7.2.jar:/Users/rinat/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.jar:/Users/rinat/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M4/surefire-shared-utils-3.0.0-M4.jar:/Users/rinat/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/Users/rinat/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/Users/rinat/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/rinat/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/Users/rinat/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/rinat/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/rinat/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/rinat/.m2/repository/org/springframework/spring-jdbc/5.3.19/spring-jdbc-5.3.19.jar:/Users/rinat/.m2/repository/org/springframework/spring-beans/5.3.19/spring-beans-5.3.19.jar:/Users/rinat/.m2/repository/org/springframework/spring-core/5.3.19/spring-core-5.3.19.jar:/Users/rinat/.m2/repository/org/springframework/spring-jcl/5.3.19/spring-jcl-5.3.19.jar:/Users/rinat/.m2/repository/org/springframework/spring-tx/5.3.19/spring-tx-5.3.19.jar:/Users/rinat/.m2/repository/org/hsqldb/hsqldb/2.2.9/hsqldb-2.2.9.jar:"/>
+    <property name="java.vm.vendor" value="Temurin"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="user.country.format" value="RU"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Users/rinat/Library/Java/JavaVirtualMachines/temurin-1.8.0_332/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/rinat/mydev/IdeaProjects/JavaPiscine/day06/src/ex02/Tests/target/surefire/surefirebooter-20220726002028965_3.jar /Users/rinat/mydev/IdeaProjects/JavaPiscine/day06/src/ex02/Tests/target/surefire 2022-07-26T00-20-28_575-jvmRun1 surefire-20220726002028965_1tmp surefire_0-20220726002028965_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/rinat/mydev/IdeaProjects/JavaPiscine/day06/src/ex02/Tests/target/test-classes:/Users/rinat/mydev/IdeaProjects/JavaPiscine/day06/src/ex02/Tests/target/classes:/Users/rinat/.m2/repository/org/apache/maven/plugins/maven-surefire-plugin/3.0.0-M5/maven-surefire-plugin-3.0.0-M5.jar:/Users/rinat/.m2/repository/org/apache/maven/surefire/maven-surefire-common/3.0.0-M5/maven-surefire-common-3.0.0-M5.jar:/Users/rinat/.m2/repository/org/apache/maven/surefire/surefire-api/3.0.0-M5/surefire-api-3.0.0-M5.jar:/Users/rinat/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.0.0-M5/surefire-logger-api-3.0.0-M5.jar:/Users/rinat/.m2/repository/org/apache/maven/surefire/surefire-extensions-api/3.0.0-M5/surefire-extensions-api-3.0.0-M5.jar:/Users/rinat/.m2/repository/org/apache/maven/surefire/surefire-booter/3.0.0-M5/surefire-booter-3.0.0-M5.jar:/Users/rinat/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.0.0-M5/surefire-extensions-spi-3.0.0-M5.jar:/Users/rinat/.m2/repository/org/apache/maven/maven-toolchain/3.0-alpha-2/maven-toolchain-3.0-alpha-2.jar:/Users/rinat/.m2/repository/org/apache/maven/shared/maven-artifact-transfer/0.11.0/maven-artifact-transfer-0.11.0.jar:/Users/rinat/.m2/repository/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar:/Users/rinat/.m2/repository/org/apache/maven/maven-model/3.0/maven-model-3.0.jar:/Users/rinat/.m2/repository/org/apache/maven/maven-plugin-api/3.0/maven-plugin-api-3.0.jar:/Users/rinat/.m2/repository/org/sonatype/sisu/sisu-inject-plexus/1.4.2/sisu-inject-plexus-1.4.2.jar:/Users/rinat/.m2/repository/org/codehaus/plexus/plexus-classworlds/2.2.3/plexus-classworlds-2.2.3.jar:/Users/rinat/.m2/repository/org/sonatype/sisu/sisu-inject-bean/1.4.2/sisu-inject-bean-1.4.2.jar:/Users/rinat/.m2/repository/org/sonatype/sisu/sisu-guice/2.1.7/sisu-guice-2.1.7-noaop.jar:/Users/rinat/.m2/repository/org/apache/maven/shared/maven-shared-utils/3.1.0/maven-shared-utils-3.1.0.jar:/Users/rinat/.m2/repository/commons-io/commons-io/2.5/commons-io-2.5.jar:/Users/rinat/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/rinat/.m2/repository/org/codehaus/plexus/plexus-java/1.0.5/plexus-java-1.0.5.jar:/Users/rinat/.m2/repository/org/ow2/asm/asm/7.2/asm-7.2.jar:/Users/rinat/.m2/repository/com/thoughtworks/qdox/qdox/2.0-M9/qdox-2.0-M9.jar:/Users/rinat/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.0.0-M4/surefire-shared-utils-3.0.0-M4.jar:/Users/rinat/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/Users/rinat/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:/Users/rinat/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/rinat/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/Users/rinat/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/Users/rinat/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/rinat/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/Users/rinat/.m2/repository/org/springframework/spring-jdbc/5.3.19/spring-jdbc-5.3.19.jar:/Users/rinat/.m2/repository/org/springframework/spring-beans/5.3.19/spring-beans-5.3.19.jar:/Users/rinat/.m2/repository/org/springframework/spring-core/5.3.19/spring-core-5.3.19.jar:/Users/rinat/.m2/repository/org/springframework/spring-jcl/5.3.19/spring-jcl-5.3.19.jar:/Users/rinat/.m2/repository/org/springframework/spring-tx/5.3.19/spring-tx-5.3.19.jar:/Users/rinat/.m2/repository/org/hsqldb/hsqldb/2.2.9/hsqldb-2.2.9.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/rinat"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Users/rinat/Library/Java/JavaVirtualMachines/temurin-1.8.0_332/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/rinat/mydev/IdeaProjects/JavaPiscine/day06/src/ex02/Tests"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/rinat/mydev/IdeaProjects/JavaPiscine/day06/src/ex02/Tests/target/surefire/surefirebooter-20220726002028965_3.jar"/>
+    <property name="sun.boot.class.path" value="/Users/rinat/Library/Java/JavaVirtualMachines/temurin-1.8.0_332/Contents/Home/jre/lib/resources.jar:/Users/rinat/Library/Java/JavaVirtualMachines/temurin-1.8.0_332/Contents/Home/jre/lib/rt.jar:/Users/rinat/Library/Java/JavaVirtualMachines/temurin-1.8.0_332/Contents/Home/jre/lib/sunrsasign.jar:/Users/rinat/Library/Java/JavaVirtualMachines/temurin-1.8.0_332/Contents/Home/jre/lib/jsse.jar:/Users/rinat/Library/Java/JavaVirtualMachines/temurin-1.8.0_332/Contents/Home/jre/lib/jce.jar:/Users/rinat/Library/Java/JavaVirtualMachines/temurin-1.8.0_332/Contents/Home/jre/lib/charsets.jar:/Users/rinat/Library/Java/JavaVirtualMachines/temurin-1.8.0_332/Contents/Home/jre/lib/jfr.jar:/Users/rinat/Library/Java/JavaVirtualMachines/temurin-1.8.0_332/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_332-b09"/>
+    <property name="user.name" value="rinat"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.endorsed.dirs" value="/Users/rinat/Library/Java/JavaVirtualMachines/temurin-1.8.0_332/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/rinat/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/cx/jst0_rrn7cn3r1m7468kj9w80000gp/T/"/>
+    <property name="idea.version" value="2022.1.3"/>
+    <property name="java.version" value="1.8.0_332"/>
+    <property name="user.dir" value="/Users/rinat/mydev/IdeaProjects/JavaPiscine/day06/src/ex02/Tests"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/rinat/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Temurin"/>
+    <property name="java.vm.version" value="25.332-b09"/>
+    <property name="java.ext.dirs" value="/Users/rinat/Library/Java/Extensions:/Users/rinat/Library/Java/JavaVirtualMachines/temurin-1.8.0_332/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="findByIdCheck" classname="edu.school21.repositories.ProductsRepositoryJdbcImplTest" time="0.32">
+    <system-err><![CDATA[Jul 26, 2022 12:20:29 AM org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory initDatabase
+INFO: Starting embedded database: url='jdbc:hsqldb:mem:testdb', username='sa'
+Jul 26, 2022 12:20:30 AM org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory shutdownDatabase
+INFO: Shutting down embedded database: url='jdbc:hsqldb:mem:testdb'
+]]></system-err>
+  </testcase>
+  <testcase name="deleteCheck" classname="edu.school21.repositories.ProductsRepositoryJdbcImplTest" time="0.032"/>
+  <testcase name="updateCheck" classname="edu.school21.repositories.ProductsRepositoryJdbcImplTest" time="0.03"/>
+  <testcase name="saveCheck" classname="edu.school21.repositories.ProductsRepositoryJdbcImplTest" time="0.02"/>
+  <testcase name="findAllCheck" classname="edu.school21.repositories.ProductsRepositoryJdbcImplTest" time="0.018"/>
+</testsuite>

@@ -1,0 +1,10 @@
+/Users/rinat/mydev/IdeaProjects/JavaPiscine/day08/src/ex00/Spring/src/main/java/school21/spring/service/models/PreProcessorToUpperImpl.java
+/Users/rinat/mydev/IdeaProjects/JavaPiscine/day08/src/ex00/Spring/src/main/java/school21/spring/service/application/Main.java
+/Users/rinat/mydev/IdeaProjects/JavaPiscine/day08/src/ex00/Spring/src/main/java/school21/spring/service/interfaces/Printer.java
+/Users/rinat/mydev/IdeaProjects/JavaPiscine/day08/src/ex00/Spring/src/main/java/school21/spring/service/models/PrinterWithDateTimeImpl.java
+/Users/rinat/mydev/IdeaProjects/JavaPiscine/day08/src/ex00/Spring/src/main/java/school21/spring/service/models/RendererStandardImpl.java
+/Users/rinat/mydev/IdeaProjects/JavaPiscine/day08/src/ex00/Spring/src/main/java/school21/spring/service/models/RendererErrImpl.java
+/Users/rinat/mydev/IdeaProjects/JavaPiscine/day08/src/ex00/Spring/src/main/java/school21/spring/service/interfaces/Renderer.java
+/Users/rinat/mydev/IdeaProjects/JavaPiscine/day08/src/ex00/Spring/src/main/java/school21/spring/service/interfaces/PreProcessor.java
+/Users/rinat/mydev/IdeaProjects/JavaPiscine/day08/src/ex00/Spring/src/main/java/school21/spring/service/models/PreProcessorToLowerImpl.java
+/Users/rinat/mydev/IdeaProjects/JavaPiscine/day08/src/ex00/Spring/src/main/java/school21/spring/service/models/PrinterWithPrefixImpl.java

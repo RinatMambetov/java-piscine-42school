@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/day05.iml" filepath="$PROJECT_DIR$/day05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ex00/Chat/ex00.iml" filepath="$PROJECT_DIR$/src/ex00/Chat/ex00.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ex01/Chat/ex01.iml" filepath="$PROJECT_DIR$/src/ex01/Chat/ex01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ex02/Chat/ex02.iml" filepath="$PROJECT_DIR$/src/ex02/Chat/ex02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/ex03/Chat/ex03.iml" filepath="$PROJECT_DIR$/src/ex03/Chat/ex03.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,6 @@
+school21/spring/service/application/Main.class
+school21/spring/service/repositories/CrudRepository.class
+school21/spring/service/repositories/UsersRepository.class
+school21/spring/service/repositories/UsersRepositoryJdbcImpl.class
+school21/spring/service/repositories/UsersRepositoryJdbcTemplateImpl.class
+school21/spring/service/models/User.class
